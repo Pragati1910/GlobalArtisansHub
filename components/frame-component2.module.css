@@ -1,0 +1,56 @@
+.categoryIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10.45px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.categoryBackground {
+  position: absolute;
+  top: 0;
+  left: 181px;
+  border-radius: 0 10.45px 0 10.45px;
+  background-color: var(--color-gray-600);
+  width: 154px;
+  height: 44px;
+  z-index: 1;
+}
+.jewellery,
+.northEastIcon {
+  position: absolute;
+  top: 10px;
+  z-index: 2;
+}
+.jewellery {
+  left: 193px;
+  display: inline-block;
+  min-width: 94px;
+}
+.northEastIcon {
+  left: 297px;
+  width: 24px;
+  height: 24px;
+}
+.categoryIconParent {
+  height: 344px;
+  width: 335px;
+  position: relative;
+  min-width: 335px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 800px) {
+  .categoryIconParent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .jewellery {
+    font-size: var(--font-size-base);
+  }
+}

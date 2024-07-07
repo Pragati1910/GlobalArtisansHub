@@ -1,0 +1,443 @@
+.hearAboutThese {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.iconarrowRight {
+  position: absolute;
+  top: calc(50% - 14.2px);
+  right: 0.3px;
+  width: 23.1px;
+  height: 23.1px;
+}
+.moreArticles {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 2px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 118px;
+}
+.successStoriesLinkSeparator {
+  position: absolute;
+  top: 26.6px;
+  left: 0;
+  border-top: 1.2px solid var(--color-bisque-100);
+  box-sizing: border-box;
+  width: 145.8px;
+  height: 1.2px;
+}
+.iconarrowRightParent {
+  align-self: stretch;
+  height: 26.6px;
+  position: relative;
+}
+.successStoriesLinkContainer {
+  width: 149.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs-7) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+}
+.successStoriesDescriptionCo {
+  width: 1315.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.featuredArticlesBackground {
+  height: 590.8px;
+  width: 590.8px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 53.3px;
+  left: -285px;
+  border-radius: 40.74px;
+  object-fit: contain;
+}
+.imgContainerIcon {
+  align-self: stretch;
+  height: 376px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.throughMyIntricate {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.69px;
+  line-height: 39.34px;
+  font-weight: 500;
+}
+.article,
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.info {
+  align-self: stretch;
+}
+.article {
+  flex: 1;
+  gap: var(--gap-8xl-8);
+  min-width: 310px;
+  max-width: 100%;
+}
+.imgContainerIcon1 {
+  align-self: stretch;
+  height: 376px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.creatingTheseBeautiful {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.69px;
+  line-height: 39.34px;
+  font-weight: 500;
+}
+.article1,
+.info1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.info1 {
+  align-self: stretch;
+}
+.article1 {
+  flex: 1;
+  gap: var(--gap-8xl-8);
+  min-width: 310px;
+  max-width: 100%;
+}
+.imgContainerIcon2 {
+  align-self: stretch;
+  height: 376px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.theCulturalTapestry {
+  width: 444.3px;
+  position: relative;
+  letter-spacing: -0.69px;
+  line-height: 39.34px;
+  display: inline-block;
+  font-weight: 500;
+  max-width: 110%;
+  flex-shrink: 0;
+}
+.info2 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+}
+.article2,
+.featuredArticles,
+.info2,
+.row6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.article2 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xl-8);
+  min-width: 310px;
+}
+.featuredArticles,
+.row6 {
+  flex-direction: row;
+}
+.row6 {
+  width: 1317px;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xl-9);
+}
+.featuredArticles {
+  align-self: stretch;
+}
+.getInvolved {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.getInvolvedDivider {
+  align-self: stretch;
+  height: 1.9px;
+  position: relative;
+  border-top: 1.9px solid var(--color-white);
+  box-sizing: border-box;
+}
+.getInvolvedButtonContainer {
+  width: 174px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-8);
+}
+.getInvolvedButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.joinUsIn {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl-5);
+  font-weight: 300;
+}
+.getInvolvedButtonParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-67xl-6);
+  flex-shrink: 0;
+}
+.getInvolved1 {
+  position: relative;
+  font-size: var(--font-size-xl-7);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--color-bisque-100);
+  text-align: center;
+}
+.getInvolvedWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-7) 0 0;
+}
+.arrowRightAltIcon {
+  height: 45.3px;
+  width: 45.3px;
+  position: relative;
+}
+.frameGroup,
+.involvedButtonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameGroup {
+  cursor: pointer;
+  border: 1.3px solid var(--color-bisque-100);
+  padding: var(--padding-10xs) var(--padding-sm) var(--padding-10xs)
+    var(--padding-16xl);
+  background-color: transparent;
+  border-radius: 25.14px;
+  justify-content: flex-start;
+  gap: var(--gap-xs-3);
+  flex-shrink: 0;
+}
+.involvedButtonWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.frameParent,
+.navigationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-51xl);
+}
+.navigationContainer {
+  flex: 1;
+  padding: var(--padding-141xl-2) 0 0;
+  box-sizing: border-box;
+  min-width: 452px;
+  max-width: 100%;
+}
+.imageDecorationOne,
+.imageDecorationTwo {
+  position: absolute;
+  top: 0;
+  left: 73.1px;
+  border-radius: 21.84px;
+  width: 345.8px;
+  height: 345.8px;
+  object-fit: contain;
+}
+.imageDecorationTwo {
+  top: 309.2px;
+  left: 0;
+  border-radius: 26.76px;
+  width: 417.1px;
+  height: 417.1px;
+  z-index: 1;
+}
+.imageDecorations {
+  height: 726.3px;
+  width: 340px;
+  position: relative;
+  min-width: 340px;
+  max-width: 100%;
+}
+.articleNavigation,
+.featuredArticlesContainer {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.articleNavigation {
+  width: 1067px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--font-size-11xl);
+}
+.featuredArticlesContainer {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-41xl-9);
+}
+.featuredArticlesBackgroundParent,
+.successStoriesContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.featuredArticlesBackgroundParent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-13xl-4);
+}
+.successStoriesContent {
+  width: 1393px;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-30xl-8);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-bisque-100);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1150px) {
+  .successStoriesDescriptionCo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .imageDecorations {
+    flex: 1;
+  }
+  .articleNavigation {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hearAboutThese {
+    font-size: var(--font-size-7xl);
+  }
+  .creatingTheseBeautiful,
+  .theCulturalTapestry,
+  .throughMyIntricate {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+  .getInvolved {
+    font-size: var(--font-size-5xl);
+  }
+  .getInvolvedButtonParent {
+    gap: var(--gap-24xl);
+  }
+  .frameParent {
+    gap: var(--gap-16xl);
+  }
+  .navigationContainer {
+    padding-top: var(--padding-85xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .articleNavigation {
+    gap: var(--gap-base);
+  }
+  .featuredArticlesContainer {
+    gap: var(--gap-11xl);
+  }
+  .successStoriesContent {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .hearAboutThese,
+  .moreArticles {
+    font-size: var(--font-size-lgi);
+  }
+  .creatingTheseBeautiful,
+  .theCulturalTapestry,
+  .throughMyIntricate {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .getInvolved,
+  .joinUsIn {
+    font-size: var(--font-size-lg);
+  }
+  .getInvolvedButtonParent {
+    gap: var(--gap-3xl);
+  }
+  .getInvolved1 {
+    font-size: var(--font-size-mid);
+  }
+  .frameParent {
+    gap: var(--gap-mid);
+  }
+  .imageDecorations {
+    min-width: 100%;
+  }
+  .featuredArticlesContainer {
+    gap: var(--gap-mini);
+  }
+}

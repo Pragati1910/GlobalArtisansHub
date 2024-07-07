@@ -1,0 +1,75 @@
+.getInvolved {
+  position: relative;
+  font-size: var(--font-size-xl-7);
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--color-bisque-100);
+  text-align: center;
+}
+.getInvolvedWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-6) 0 0;
+}
+.arrowRightAltIcon {
+  height: 45.3px;
+  width: 45.3px;
+  position: relative;
+}
+.frameParent {
+  cursor: pointer;
+  border: 1.3px solid var(--color-bisque-100);
+  padding: var(--padding-10xs) var(--padding-sm) var(--padding-10xs)
+    var(--padding-16xl);
+  background-color: transparent;
+  border-radius: 25.14px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs-3);
+}
+.footerDividerChild,
+.footerDividerItem {
+  position: absolute;
+  top: 0;
+  left: 73.1px;
+  border-radius: 21.84px;
+  width: 345.8px;
+  height: 345.8px;
+  object-fit: contain;
+}
+.footerDividerItem {
+  top: 309.2px;
+  left: 0;
+  border-radius: 26.76px;
+  width: 417.1px;
+  height: 417.1px;
+  z-index: 1;
+}
+.footerDivider {
+  height: 726.3px;
+  width: 330px;
+  position: absolute;
+  margin: 0 !important;
+  top: -436.5px;
+  right: 0;
+}
+.getInvolvedButton {
+  width: 1419px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-211xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+@media screen and (max-width: 450px) {
+  .getInvolved {
+    font-size: var(--font-size-mid);
+  }
+}

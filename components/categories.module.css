@@ -1,0 +1,240 @@
+.categoryItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.homeDecorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 22.77px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.homeDecorBackground {
+  position: absolute;
+  top: 0;
+  left: 511px;
+  border-radius: 0 22.77px 0 10.45px;
+  background-color: var(--color-gray-600);
+  width: 194px;
+  height: 44px;
+  z-index: 1;
+}
+.homeDecor,
+.northEastIcon {
+  position: absolute;
+  top: 10px;
+  z-index: 2;
+}
+.homeDecor {
+  left: 530px;
+  display: inline-block;
+  min-width: 120px;
+}
+.northEastIcon {
+  left: 661px;
+  width: 24px;
+  height: 24px;
+}
+.homeDecorIconParent {
+  align-self: stretch;
+  height: 730px;
+  position: relative;
+}
+.categoriesContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  min-width: 458px;
+  max-width: 100%;
+}
+.artCraftsIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 17.15px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.artCraftsBackground {
+  height: 44px;
+  width: 184px;
+  position: absolute;
+  margin: 0 !important;
+  right: -35px;
+  bottom: -11px;
+  border-radius: 0 var(--br-mid) 0 10.45px;
+  background-color: var(--color-gray-600);
+  z-index: 1;
+}
+.artCrafts1 {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.northEastIcon1 {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  right: -19px;
+  bottom: -1px;
+  z-index: 2;
+}
+.artCraftsContent,
+.artCraftsIconParent {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+.artCraftsContent {
+  width: 149px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.artCraftsIconParent {
+  align-self: stretch;
+  height: 504px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-3xs) var(--padding-16xl);
+  box-sizing: border-box;
+}
+.instanceChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 17.15px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.instanceItem {
+  position: absolute;
+  top: 0;
+  left: 320px;
+  border-radius: 0 17.15px 0 10.45px;
+  background-color: var(--color-gray-600);
+  width: 254px;
+  height: 44px;
+  z-index: 1;
+}
+.northEastIcon2,
+.textilesApparels {
+  position: absolute;
+  top: 10px;
+  left: 336px;
+  z-index: 2;
+}
+.northEastIcon2 {
+  left: 530px;
+  width: 24px;
+  height: 24px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.frameChild {
+  height: 44px;
+  width: 254px;
+  position: relative;
+  border-radius: 0 17.15px 0 10.45px;
+  background-color: var(--color-gray-600);
+  display: none;
+}
+.northEastIcon3,
+.textilesApparels1 {
+  position: relative;
+  z-index: 4;
+}
+.northEastIcon3 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 320px;
+  border-radius: 0 17.15px 0 10.45px;
+  background-color: var(--color-gray-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-2xs);
+  white-space: nowrap;
+  z-index: 3;
+}
+.instanceParent {
+  align-self: stretch;
+  height: 571px;
+  position: relative;
+}
+.artCrafts,
+.categories {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.artCrafts {
+  width: 574px;
+  flex-direction: column;
+  gap: var(--gap-base);
+  min-width: 574px;
+}
+.categories {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1350px) {
+  .artCrafts {
+    flex: 1;
+  }
+  .categories {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .categoryItems {
+    flex-wrap: wrap;
+  }
+  .artCrafts,
+  .categoriesContent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .artCrafts1,
+  .homeDecor,
+  .textilesApparels {
+    font-size: var(--font-size-base);
+  }
+}

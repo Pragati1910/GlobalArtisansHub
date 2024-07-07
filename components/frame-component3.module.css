@@ -1,0 +1,89 @@
+.handmadeWithHeart {
+  margin: 0;
+  width: 806px;
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 400;
+  font-family: inherit;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.handmadeWithHeartConnectinWrapper {
+  width: 1286px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.heroImageBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frameChild,
+.heroImageDecoration,
+.heroImageDecoration1 {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-200);
+  width: 14.2px;
+  height: 14.2px;
+}
+.frameChild,
+.heroImageDecoration1 {
+  left: 66px;
+}
+.frameChild {
+  left: 0;
+  width: 36px;
+  height: 14px;
+}
+.heroImageDecorationParent {
+  position: absolute;
+  top: 448px;
+  left: 610px;
+  width: 80.2px;
+  height: 14.2px;
+  z-index: 1;
+}
+.heroImageBgParent {
+  align-self: stretch;
+  height: 481px;
+  position: relative;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-bisque-100);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 800px) {
+  .frameParent {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .handmadeWithHeart {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,56 @@
+.text,
+.title {
+  position: relative;
+  line-height: 20px;
+}
+.title {
+  align-self: stretch;
+  font-weight: 500;
+}
+.text {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-raleway);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 20px;
+  flex: 1;
+  color: var(--color-bisque-100);
+  text-align: left;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 250px;
+  max-width: 100%;
+  padding: 0;
+}
+.input,
+.textfield {
+  display: flex;
+  max-width: 100%;
+}
+.textfield {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-bisque-100);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-2xs);
+}
+.input {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-bisque-100);
+  font-family: var(--font-raleway);
+}

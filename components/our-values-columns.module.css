@@ -1,0 +1,113 @@
+.ourValuesColumnsChild {
+  height: 370px;
+  width: 1299px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background: linear-gradient(270deg, rgba(73, 77, 50, 0.2), #2d2a19);
+  display: none;
+  max-width: 100%;
+}
+.ourValuesColumnsItem {
+  width: 477px;
+  position: relative;
+  border-radius: 20.52px;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.sustainablity {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.sustainablityWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.ourCommitmentTo {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  z-index: 1;
+}
+.sustainabilityTitleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.ourValuesColumns,
+.sustainabilityTitleContainerWrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sustainabilityTitleContainerWrapper {
+  width: 699px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-55xl);
+  min-width: 699px;
+  min-height: 239px;
+}
+.ourValuesColumns {
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  background: linear-gradient(270deg, rgba(73, 77, 50, 0.2), #2d2a19);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-7xl) var(--padding-xl);
+  gap: var(--gap-50xl);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-bisque-100);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1350px) {
+  .ourValuesColumnsItem,
+  .sustainabilityTitleContainerWrapper {
+    flex: 1;
+  }
+  .ourValuesColumns {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .sustainabilityTitleContainerWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sustainablity {
+    font-size: var(--font-size-10xl);
+  }
+  .ourValuesColumns {
+    gap: var(--gap-15xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sustainablity {
+    font-size: var(--font-size-3xl);
+  }
+  .ourCommitmentTo {
+    font-size: var(--font-size-base);
+  }
+  .ourValuesColumns {
+    gap: var(--gap-mid);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,207 @@
+.globalArtisansHub {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.shoppingBagBackground {
+  border: 1px solid var(--color-bisque-100);
+  outline: 0;
+  background-color: transparent;
+  height: 35px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-21xl);
+  box-sizing: border-box;
+  min-width: 250px;
+  max-width: 100%;
+  z-index: 1;
+}
+.personIcon,
+.shoppingBagIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.shoppingBagIconContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.shoppingBagIconContainerWrapper {
+  width: 105px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.shoppingBagContainer,
+.shoppingBagContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.shoppingBagContainer {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-32xl);
+}
+.shoppingBagContainerWrapper {
+  width: 759px;
+  flex-direction: column;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.globalArtisansHubParent {
+  width: 1280px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.searchIcon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: 19px;
+  right: 190px;
+}
+.menuSeparator {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.artists {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 65px;
+  cursor: pointer;
+}
+.artistsMenuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.shop {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 44px;
+  cursor: pointer;
+}
+.shopMenuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-10xs) 0 0;
+}
+.aboutUs,
+.blog {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 43px;
+  cursor: pointer;
+}
+.aboutUs {
+  min-width: 81px;
+  white-space: nowrap;
+}
+.menuItemsContainer,
+.menuItemsContainerWrapper {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.menuItemsContainer {
+  width: 603px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-bisque-100);
+  font-family: var(--font-raleway);
+}
+.menuItemsContainerWrapper {
+  width: 955px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.menuSeparatorParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+}
+.frameParent,
+.navbar,
+.navbarWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+}
+.navbar,
+.navbarWrapper {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.navbar {
+  flex: 1;
+  overflow: hidden;
+  padding: var(--padding-base) var(--padding-46xl) var(--padding-5xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-bisque-100);
+  font-family: var(--font-amelaryas);
+}
+.navbarWrapper {
+  align-self: stretch;
+  padding: 0 0 var(--padding-42xl-1);
+}
+@media screen and (max-width: 1350px) {
+  .menuItemsContainerWrapper {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .shoppingBagContainer {
+    gap: var(--gap-6xl);
+  }
+  .navbar {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}

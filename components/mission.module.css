@@ -1,0 +1,156 @@
+.missionContentChild {
+  height: 434px;
+  width: 1299px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background: linear-gradient(270deg, rgba(73, 77, 50, 0.2), #2d2a19);
+  display: none;
+  max-width: 100%;
+}
+.ourMission1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.missionSeparator {
+  height: 2px;
+  flex: 1;
+  position: relative;
+  border-top: 2px solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.missionSeparatorWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+}
+.ourMissionGroup {
+  width: 173px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.ourMission {
+  width: 585px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ourMissionIs {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 300;
+  font-family: inherit;
+  z-index: 1;
+}
+.missionStatement,
+.ourMissionParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ourMissionParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+.missionStatement {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-smi);
+  box-sizing: border-box;
+  min-width: 414px;
+}
+.missionImageIcon {
+  width: 496px;
+  position: relative;
+  border-radius: var(--br-sm-9);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.mission,
+.missionContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.missionContent {
+  flex: 1;
+  border-radius: var(--br-mini);
+  background: linear-gradient(270deg, rgba(73, 77, 50, 0.2), #2d2a19);
+  align-items: flex-end;
+  padding: var(--padding-11xl) var(--padding-lgi) var(--padding-11xl)
+    var(--padding-31xl);
+  gap: var(--gap-78xl);
+}
+.mission {
+  width: 1427px;
+  align-items: flex-start;
+  padding: 0 var(--padding-45xl) var(--padding-65xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-bisque-100);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1350px) {
+  .missionImageIcon {
+    flex: 1;
+  }
+  .missionContent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ourMission1 {
+    font-size: var(--font-size-7xl);
+  }
+  .ourMissionParent {
+    gap: var(--gap-3xl);
+  }
+  .missionStatement {
+    min-width: 100%;
+  }
+  .missionContent {
+    gap: var(--gap-29xl);
+  }
+  .mission {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    padding-bottom: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourMission1,
+  .ourMissionIs {
+    font-size: var(--font-size-lgi);
+  }
+  .missionContent {
+    gap: var(--gap-5xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

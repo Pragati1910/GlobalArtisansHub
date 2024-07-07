@@ -1,0 +1,220 @@
+.howCanI {
+  font-weight: 700;
+}
+.howCanIContactCustomerSup {
+  margin: 0;
+}
+.ourCustomerSupport {
+  font-weight: 500;
+}
+.ourCustomerSupportTeamIsH {
+  margin: 0;
+}
+.howCanIContainer {
+  width: 391px;
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  max-height: 204px;
+  word-break: break-word;
+}
+.fAQItemContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.howCanI1 {
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+.howCanIPlaceAnOrderOnGl {
+  margin: 0;
+}
+.toPlaceAn {
+  font-weight: 500;
+}
+.toPlaceAnOrderSimplyBrow {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.howCanIContainer1 {
+  width: 411px;
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  max-width: 100%;
+}
+.howCanIPlaceAnOrderOnGlWrapper {
+  width: 442px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.whatAreThe {
+  font-weight: 700;
+}
+.whatAreTheShippingOptions {
+  margin: 0;
+}
+.weOfferStandard {
+  font-weight: 500;
+}
+.weOfferStandardAndExpress {
+  margin: 0;
+}
+.whatAreTheContainer {
+  width: 361px;
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.fAQItem,
+.fAQItemsList {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fAQItem {
+  flex: 1;
+  gap: var(--gap-28xl);
+}
+.fAQItemsList {
+  align-self: stretch;
+  padding: 0 var(--padding-8xs) 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.whatIsYour {
+  font-weight: 700;
+}
+.whatIsYourReturnPolicy {
+  margin: 0;
+}
+.weWantYou {
+  font-weight: 500;
+}
+.weWantYouToBeCompletelyS {
+  margin: 0;
+}
+.whatIsYourContainer {
+  width: 376px;
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.howDoI {
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+.howDoIBecomeAnArtisanPar {
+  margin: 0;
+}
+.ifYouAre {
+  font-weight: 500;
+}
+.ifYouAreAnArtisanInterest {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.howDoIContainer {
+  width: 411px;
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.whatIsGlobal {
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+.whatIsGlobalArtisansHubA {
+  margin: 0;
+}
+.globalArtisans {
+  font-weight: 500;
+  white-space: pre-wrap;
+}
+.globalArtisansHubIsAPlat {
+  margin: 0;
+}
+.whatIsGlobalContainer {
+  width: 382px;
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.whatIsYourReturnPolicyWeParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-44xl-5);
+}
+.fAQItems,
+.fAQItemsListParent,
+.whatIsYourReturnPolicyWeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fAQItemsListParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-18xl);
+}
+.fAQItems {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1350px) {
+  .fAQItem,
+  .whatIsYourReturnPolicyWeParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .fAQItem {
+    gap: var(--gap-4xl);
+  }
+  .whatIsYourReturnPolicyWeParent {
+    gap: var(--gap-13xl);
+  }
+  .fAQItemsListParent {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .howCanIContainer,
+  .howCanIContainer1,
+  .howDoIContainer,
+  .whatAreTheContainer,
+  .whatIsGlobalContainer,
+  .whatIsYourContainer {
+    font-size: var(--font-size-base);
+    line-height: 27px;
+  }
+  .whatIsYourReturnPolicyWeParent {
+    gap: var(--gap-base);
+  }
+}

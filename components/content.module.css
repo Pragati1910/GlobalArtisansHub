@@ -1,0 +1,274 @@
+.backgroundIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.empty,
+.empty1,
+.socialMedia {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-200);
+  width: 14.2px;
+  height: 14.2px;
+}
+.empty1,
+.socialMedia {
+  left: 66px;
+}
+.socialMedia {
+  left: 0;
+  width: 36px;
+  height: 14px;
+}
+.emptyParent {
+  position: absolute;
+  top: 448px;
+  left: 610px;
+  width: 80.2px;
+  height: 14.2px;
+  z-index: 1;
+}
+.backgroundParent {
+  align-self: stretch;
+  height: 481px;
+  position: relative;
+}
+.handcraftedJewellery {
+  position: relative;
+  font-weight: 300;
+  white-space: pre-wrap;
+}
+.moreArticles {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 108px;
+}
+.iconarrowRight {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.moreArticlesParent {
+  margin-left: -2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.separator {
+  width: 126px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+}
+.frameParent {
+  height: 23px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+}
+.frameParent,
+.jewelryItems,
+.jewelryItemsInner {
+  display: flex;
+  align-items: flex-start;
+}
+.jewelryItemsInner {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+  text-align: center;
+  font-size: var(--font-size-mid-3);
+  color: var(--color-gray-600);
+}
+.jewelryItems {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.jewelryItemsParent,
+.productRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.productRow {
+  width: 1300px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-12xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+}
+.jewelryItemsParent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-30xl);
+  box-sizing: border-box;
+  gap: var(--gap-22xl);
+}
+.textilesApparels {
+  position: relative;
+  font-weight: 300;
+}
+.moreArticles1 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 108px;
+}
+.iconarrowRight1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.moreArticlesGroup {
+  margin-left: -2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.instanceChild {
+  width: 126px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+}
+.frameContainer,
+.instanceWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  height: 23px;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+}
+.instanceWrapper {
+  padding: var(--padding-xs) 0 0;
+  text-align: center;
+  font-size: var(--font-size-mid-3);
+  color: var(--color-gray-600);
+}
+.instanceGroup,
+.textilesApparelsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.textilesApparelsParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.instanceGroup {
+  width: 1300px;
+  overflow-x: auto;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-28xl);
+}
+.content,
+.frameGroup,
+.instanceParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.instanceParent {
+  width: 1300px;
+  flex-direction: column;
+  gap: var(--gap-41xl);
+}
+.content {
+  flex-direction: row;
+  padding: 0 var(--padding-46xl) var(--padding-57xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-10xl-5);
+  color: var(--color-white);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1300px) {
+  .content {
+    padding-bottom: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .content {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .jewelryItems {
+    flex-wrap: wrap;
+  }
+  .productRow {
+    gap: var(--gap-mini);
+  }
+  .jewelryItemsParent {
+    gap: var(--gap-xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .textilesApparelsParent {
+    flex-wrap: wrap;
+  }
+  .instanceGroup {
+    gap: var(--gap-mini);
+  }
+  .frameGroup {
+    gap: var(--gap-4xl);
+  }
+  .instanceParent {
+    gap: var(--gap-11xl);
+  }
+  .content {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .handcraftedJewellery,
+  .textilesApparels {
+    font-size: var(--font-size-5xl);
+  }
+  .content {
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}

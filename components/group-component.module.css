@@ -1,0 +1,97 @@
+.imageIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 6.42px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.addToCart,
+.buttonIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addToCart {
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xl);
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl) var(--br-xl) 6.42px 6.42px;
+  background-color: var(--color-gainsboro-500);
+}
+.peacockChandbaliHoop {
+  align-self: stretch;
+  position: relative;
+  font-weight: 700;
+  z-index: 1;
+}
+.rs86400 {
+  height: 32.6px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  z-index: 1;
+}
+.backgroundParent,
+.imageParent,
+.price {
+  display: flex;
+  justify-content: flex-start;
+}
+.price {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-44xl) 0 var(--padding-43xl);
+  font-size: var(--font-size-xl);
+}
+.backgroundParent,
+.imageParent {
+  flex-direction: column;
+  position: relative;
+}
+.backgroundParent {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: var(--padding-10xl-3) var(--padding-15xl) var(--padding-base-1);
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.imageParent {
+  width: 312px;
+  flex-shrink: 0;
+  align-items: flex-end;
+  padding: var(--padding-4xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-254xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 450px) {
+  .rs86400 {
+    font-size: var(--font-size-base);
+  }
+  .imageParent {
+    gap: var(--gap-117xl);
+  }
+}
